@@ -1,0 +1,21 @@
+.login-container {
+    text-align: center;
+  }
+  
+  .menu-bar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .menu-bar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .welcome-message {
+    margin-top: 50px;
+    text-align: center;
+  }
