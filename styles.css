@@ -1,21 +1,50 @@
+.menu-bar {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.menu-bar a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.welcome-message {
+  margin-top: 20px;
+}
+
+
 .login-container {
-    text-align: center;
-  }
-  
-  .menu-bar {
-    width: 200px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .menu-bar a {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .welcome-message {
-    margin-top: 50px;
-    text-align: center;
-  }
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.login-container h1 {
+  text-align: center;
+}
+
+#login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+}
+
+#login-form button[type="submit"]:hover {
+  background-color: #45a049;
+}
