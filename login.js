@@ -7,10 +7,17 @@ const users = [
       "username": "user2",
       "password": "password2"
     },
-    // ...add more users as needed
+    {  "username": "user3",
+      "password": "password3"
+    } ,
+    {
+      "username": "user4",
+      "password":"password4"
+    }
   ];
   
-  document.getElementById('login-form').addEventListener('submit', function(event) {
+  document.getElementById('login-form').addEventListener('submit', function(event)
+                                                         {
     event.preventDefault(); // Prevent form submission
   
     const username = document.getElementById('username').value;
@@ -19,15 +26,10 @@ const users = [
     const user = users.find(user => user.username === username && user.password === password);
   
     if (user) {
-      // Save user information in session or local storage if needed
-  
-      // Redirect to home page
+     // goes to home page
       window.location.href = "home.html";
     } else {
-      showModal('Login Failure');
+      alert("login failure")
     }
   });
   
-  function showModal(message) {
-    alert(message);
-  }
